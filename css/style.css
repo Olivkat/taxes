@@ -1,0 +1,78 @@
+.logo {
+    vertical-align: middle;
+    height: 128px;
+}
+.title {
+    vertical-align: middle;
+    font-family: serif;
+    font-size: 50px;
+    color: rgb(117, 117, 224);
+}
+.logoimg {
+    height: 100px;
+}
+.wrapper header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav {
+    background: rgb(117, 117, 224);
+}
+.list {
+    display: flex;
+}
+.list li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+.list li:hover {
+    border: 1px solid black;
+}
+.list li a {
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+}
+main {
+    display: flex;
+}
+.left {
+    width: 20%;
+    background: rgb(153, 153, 223);
+    font-family: serif;
+    font-size: 14px;
+}
+.right {
+    width: 80%;
+    background: rgb(55, 55, 121);
+    color:white;
+    font-family: serif;
+    font-size: 14px;
+}
+footer {
+    background: rgb(117, 117, 224);
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.text {
+    font-family: serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.img {
+    size:500px;
+    display: block;
+    margin: 0 auto;
+}
